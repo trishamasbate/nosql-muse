@@ -1,4 +1,4 @@
-const { User } = require('../models');
+const { User, Thought } = require('../models');
 
 const UserController = {
   // 1. Get all users
@@ -34,18 +34,23 @@ const UserController = {
       .catch(err => res.status(500).json(err));
   },
 
-  // 5. Delete user
+  // 5. Delete user and associated thoughts
   deleteUserById(req, res) {
-    User.findOneAndDelete(req.params.id)
+    User.findByIdAndDelete(req.params.userId)
       .then(userData => {
         if (!userData) {
           return res.status(404).json({ message: 'User not found' });
         }
-        res.json({ message: 'User deleted successfully' });
+        // Delete associated thoughts
+        return Thought.deleteMany({ userId: req.params.userId });
       })
-      .catch(err => res.status(500).json(err));
+      .then(() => res.json({ message: 'User and associated thoughts deleted successfully' }))
+      .catch(err => {
+        console.error('Error deleting user and associated thoughts:', err); // Log the error for debugging
+        res.status(500).json({ message: 'Internal server error', error: err });
+      });
   },
-
+  
   // 6. Add friend to user's friend list
   addFriend(req, res) {
     User.findOneAndUpdate(
@@ -64,7 +69,6 @@ const UserController = {
 
 
   // 7. Remove friend from user's friend list
-
   removeFriend({ params }, res) {
     User.findOneAndUpdate(
       { _id: params.userId },
