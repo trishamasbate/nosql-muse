@@ -4,12 +4,12 @@
 [![license](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://choosealicense.com/licenses/mit/)
 
 
-## 📃 Description:
-**Muse** is a cutting-edge social networking web application designed to connect people, foster communication, and create a vibrant community where users can share their thoughts, engage with friends' posts, and manage their social connections seamlessly. It offers a sleek and intuitive interface powered by a robust API, providing a seamless user experience.Users can post thoughts up to 280 characters, edit or delete their posts, and view a real-time feed of their own and friends' thoughts. Reactions to posts, such as likes and loves, are supported, along with viewing reactions. Friend list management includes sending, accepting, and removing friend requests, with a personalized friend feed.
+## 📃 Description
+**Muse** is a cutting-edge social networking web application designed to connect people, foster communication, and create a vibrant community where users can share their thoughts, engage with friends' posts, and manage their social connections seamlessly. It offers a sleek and intuitive interface powered by a robust API, providing a seamless user experience. Users can post thoughts up to 280 characters, edit or delete their posts, and view a real-time feed of their own and friends' thoughts. Reactions to posts, such as likes and loves, are supported, along with viewing reactions. Friend list management includes sending, accepting, and removing friend requests, with a personalized friend feed.
 
 ## 📌 Table of Contents
 - [💭 Muse: A Social Network Web App](#-muse-a-social-network-web-app)
-  - [📃 Description:](#-description)
+  - [📃 Description](#-description)
   - [📌 Table of Contents](#-table-of-contents)
   - [🔎 User Story](#-user-story)
   - [✅ Acceptance Criteria](#-acceptance-criteria)
@@ -52,12 +52,20 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 
 ## 🎞️ Previews and Walkthrough Videos:
 
-**Preview**
-![](./public/) 
+**✨ Preview**
+![Visual Studio Code](./Public/vs-code.png)
+![Insomnia](./Public/insomnia.png)
 
-**Click on the links below**
-- [Muse Walkthrough Online](https://youtu.be/dgPtmYfc0CA?si=0xzJU4JTEuUCRSNv)
 
+**✨ Click on the links below for the Walkthrough Videos on Insomnia!**
+- [VS Code](https://youtu.be/w25uCIo_TR4?si=U0HH7IcgB_X00Zye)
+- [POST and PUT Routes for Users and Thoughts](https://youtu.be/KT0988OYxd8?si=K4MYbJTDhtxw-_Ry)
+- [GET Route for ALL Users and Thoughts](https://youtu.be/6X-oWcLfBpU?si=OUQkYeFMTVmpTk3e)
+- [GET Route for a SINGLE User and a SINGLE Thought](https://youtu.be/lnKrl89baAg?si=-kUssC-sW6BeMC36)
+- [DELETE Route for a User and Associated Thoughts](https://youtu.be/MnO88KbUBBA?si=Q1N5h8jbnzMbrKhf)
+- [POST and DELETE Routes for Friends](https://youtu.be/2l7kn9QT9yA?si=kMUWJpKa-jPK3TMb)
+- [POST and DELETE Routes for Friends](https://youtu.be/0xXF99QAsh4?si=4v1QzOamyVflf76T)
+  
 ## 🗝️ Resources
 - Dynamic JavaScript
 - License Badge: [Shields.io](https://shields.io/)

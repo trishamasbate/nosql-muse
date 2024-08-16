@@ -21,5 +21,6 @@ router.route('/:thoughtId/reactions').post(createReaction);
 
 // Define the route for DELETE reaction to a Thought
 router.route('/:thoughtId/reactions/:reactionId').delete(deleteReaction);
+
 // Export the router
 module.exports = router;
