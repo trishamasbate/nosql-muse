@@ -64,7 +64,7 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 - [GET Route for a SINGLE User and a SINGLE Thought](https://youtu.be/lnKrl89baAg?si=-kUssC-sW6BeMC36)
 - [DELETE Route for a User and Associated Thoughts](https://youtu.be/MnO88KbUBBA?si=Q1N5h8jbnzMbrKhf)
 - [POST and DELETE Routes for Friends](https://youtu.be/2l7kn9QT9yA?si=kMUWJpKa-jPK3TMb)
-- [POST and DELETE Routes for Friends](https://youtu.be/0xXF99QAsh4?si=4v1QzOamyVflf76T)
+- [POST and DELETE Routes for Reactions](https://youtu.be/0xXF99QAsh4?si=4v1QzOamyVflf76T)
   
 ## 🗝️ Resources
 - Dynamic JavaScript
